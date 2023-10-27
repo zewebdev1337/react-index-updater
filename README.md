@@ -9,6 +9,7 @@ If the `index.js` or `index.ts` file does not exist, it creates one. This allows
 ### How to use:
 
 Install globally ``npm install @zewebdev/react-index-updater --global``
+
 Run from the root of your react project: ``react-index-updater``
 
 Please note that this script assumes that components are exported in the format ``export const ComponentName = ...``, if a different format is used, (i.e ``export default ComponentName``) the script would need to be adjusted accordingly. Also, the script does not handle the removal of non-existent components from the index file. This would require a more complex parsing of the JavaScript/TypeScript files.
